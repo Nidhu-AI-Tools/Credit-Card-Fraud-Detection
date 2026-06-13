@@ -36,6 +36,7 @@ Because of anonymization, this project focuses more on modeling and evaluation r
 
 fraud-ml/
 │── data/               # raw and processed data
+
 │── notebooks/          # exploratory work and experiments
 │── src/
 │   ├── preprocessing.py
