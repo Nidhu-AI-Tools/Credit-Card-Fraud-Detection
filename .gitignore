@@ -222,3 +222,4 @@ reports/**/*.pdf
 
 # Compressed dataset copies
 dataset/**/*.zip
+dataset/
