@@ -1,0 +1,15 @@
+Final Evaluation Summary
+=======================
+Best model by PR-AUC on test: Tuned XGBoost
+Threshold used: 0.5
+PR-AUC: 0.896665
+ROC-AUC: 0.986581
+Precision: 0.952381
+Recall: 0.851064
+F1 Score: 0.898876
+
+All finalists ranked by PR-AUC:
+- Tuned XGBoost: threshold=0.5, PR-AUC=0.896665, ROC-AUC=0.986581, Precision=0.952381, Recall=0.851064, F1=0.898876
+- Tuned LightGBM: threshold=0.5, PR-AUC=0.892171, ROC-AUC=0.983978, Precision=0.951220, Recall=0.829787, F1=0.886364
+- Tuned Random Forest: threshold=0.3, PR-AUC=0.885993, ROC-AUC=0.965510, Precision=0.911111, Recall=0.872340, F1=0.891304
+- Logistic Regression Baseline: threshold=0.1, PR-AUC=0.745195, ROC-AUC=0.967409, Precision=0.800000, Recall=0.851064, F1=0.824742

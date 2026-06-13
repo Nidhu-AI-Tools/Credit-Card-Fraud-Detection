@@ -1,0 +1,9 @@
+Training outputs saved from train.ipynb.
+
+Key conclusions:
+- Best unweighted logistic regression threshold by F1: 0.1
+- Best unweighted logistic regression F1: 0.7552
+- Best weighted logistic regression threshold by F1: 0.7
+- Best weighted logistic regression F1: 0.2199
+- Weighted logistic regression did not outperform unweighted logistic regression on F1.
+- Unweighted logistic regression remains the stronger training-stage model direction.
