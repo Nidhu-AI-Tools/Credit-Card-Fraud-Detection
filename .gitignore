@@ -3,6 +3,9 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# OS / local desktop noise
+.DS_Store
+
 # C extensions
 *.so
 
@@ -77,6 +80,9 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# Local plotting / report caches
+.mplconfig/
 
 # IPython
 profile_default/
@@ -205,3 +211,14 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Generated model artifacts
+models/**/*.joblib
+models/**/*.pkl
+models/**/*.pickle
+
+# Generated reports
+reports/**/*.pdf
+
+# Compressed dataset copies
+dataset/**/*.zip
