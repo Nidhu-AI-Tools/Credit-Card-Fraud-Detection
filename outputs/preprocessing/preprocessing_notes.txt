@@ -1,0 +1,9 @@
+Preprocessing outputs saved from preprocessing.ipynb.
+
+Key saved artifacts:
+- class distribution after deduplication
+- deduplicated dataset summary
+- Time and Amount summary tables
+- fraud-specific Time and Amount summary table
+- fraud rate by time bin and top 10 highest bins
+- key preprocessing plots for reuse in later analysis

@@ -1,0 +1,5 @@
+Model,Threshold,Selection Reason,Hyperparameters
+Logistic Regression Baseline,0.1,Baseline reference from the training notebook,"{'random_state': 42, 'max_iter': 1000, 'scaler': 'StandardScaler'}"
+Tuned Random Forest,0.3,Best Random Forest family candidate,"{'n_estimators': 200, 'min_samples_split': 5, 'min_samples_leaf': 2, 'max_features': 'sqrt', 'max_depth': 20, 'class_weight': 'balanced', 'random_state': 42, 'n_jobs': -1}"
+Tuned XGBoost,0.5,Best PR-AUC overall on validation,"{'subsample': 0.8, 'scale_pos_weight': 10, 'n_estimators': 200, 'min_child_weight': 5, 'max_depth': 8, 'learning_rate': 0.1, 'gamma': 0, 'colsample_bytree': 0.7, 'random_state': 42, 'eval_metric': 'logloss', 'n_jobs': -1}"
+Tuned LightGBM,0.5,Best F1 overall and second-best PR-AUC on validation,"{'subsample': 1.0, 'scale_pos_weight': 1, 'reg_lambda': 1.0, 'reg_alpha': 0.1, 'num_leaves': 63, 'n_estimators': 500, 'min_child_samples': 100, 'max_depth': -1, 'learning_rate': 0.1, 'colsample_bytree': 0.7, 'random_state': 42, 'n_jobs': -1, 'verbose': -1}"
